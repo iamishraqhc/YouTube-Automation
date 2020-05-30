@@ -12,3 +12,10 @@ var driver = new webdriver.Builder().withCapabilities(webdriver.Capabilities.chr
     await driver.sleep(5000);
     await driver.quit();
 })();
+
+/* 
+    There are issues to bypass google login with selenium so it will be kept as it is for a while. 
+    I will be writing another script using puppeteer and let's see how that goes.
+    If I find a solution with selenium webdriver, I will update this script.
+    For now, its marked as incomplete.
+*/
